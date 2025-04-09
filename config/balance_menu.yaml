@@ -1,0 +1,7 @@
+title: "Выберете Сеть!"
+subtitle: "Выберите опцию ниже:"
+buttons:
+  - text: "Mainnets"
+    callback: "mainnet"
+  - text: "Testnet"
+    callback: "testnet"

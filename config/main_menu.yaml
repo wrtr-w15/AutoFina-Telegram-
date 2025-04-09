@@ -1,0 +1,10 @@
+title: "Добро пожаловать в AutoFina!"
+subtitle: "Выберите опцию ниже:"
+photo: "media/main_menu.png"
+buttons:
+  - text: "Проверить баланса💰"
+    callback: "check_balance"
+  - text: "Проверка NFT🖼️"
+    callback: "check_nft"
+  - text: "Проверка активностей🎯"
+    callback: "check_activity"
