@@ -3,7 +3,8 @@ from aiogram import Bot, Dispatcher
 from aiogram.enums import ParseMode
 from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.client.default import DefaultBotProperties
-from handlers import menu, user_input, check_balance, menu_router  # добавлен menu_router
+from handlers import menu, user_input, menu_router  # добавлен menu_router
+from middlewares import subscription
 
 from dotenv import load_dotenv
 import os
@@ -17,6 +18,8 @@ async def main():
         default=DefaultBotProperties(parse_mode=ParseMode.HTML)
     )
     dp = Dispatcher(storage=MemoryStorage())
+    
+    dp.include_router(subscription.router)
 
     # Регистрация хэндлеров
     menu.register_handlers(dp)

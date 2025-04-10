@@ -1,9 +1,9 @@
 title: "Выберете Сеть!"
 subtitle: "Выберите опцию ниже:"
 buttons:
-  - text: "Monad"
+  - text: "Monad 👾"
     callback: "mnd_network_balance"
-  - text: "Sahara"
+  - text: "Sahara 🏜️"
     callback: "shr_network_balance"
-  - text: "🔙 Назад"
+  - text: "🎒 Назад"
     callback: "go_back"

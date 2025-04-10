@@ -1,9 +1,9 @@
 title: "Выберете Сеть для проверки NFT"
 subtitle: "&lt;=====3"
 buttons:
-  - text: "Mainnets"
+  - text: "Mainnets 💵"
     callback: "open_network_menu:mainnet"
-  - text: "Testnets"
+  - text: "Testnets ⌛"
     callback: "open_network_menu:testnet"
-  - text: "🔙 Назад"
+  - text: "🎒 Назад"
     callback: "go_back"
