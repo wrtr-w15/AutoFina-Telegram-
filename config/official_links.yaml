@@ -1,0 +1,4 @@
+title: "We kindly invite you to follow our official Telegram channel @autofina\nTo stay updated on all the latest developments, announcements, and opportunities from AutoFina.\n\nBuy Afina you can on Official Web\nhttps://afina.io/en/download\nPromo | AutoFina gives you free project scripts!"
+buttons:
+  - text: "🎒 Назад"
+    callback: "go_back"

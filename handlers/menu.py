@@ -26,8 +26,8 @@ async def start_handler(message: types.Message):
     text = f"{title}\n{subtitle}"
 
     if photo_path and os.path.exists(photo_path):
-        photo = FSInputFile(photo_path)
-        await message.answer_photo(photo=photo, caption=text, reply_markup=keyboard)
+        with open(photo_path, "rb") as photo:
+            await message.answer_photo(photo=photo, caption=text, reply_markup=keyboard)
     else:
         await message.answer(text, reply_markup=keyboard)
 
