@@ -1,0 +1,9 @@
+title: "Выберете Сеть!"
+subtitle: "Выберите опцию ниже:"
+buttons:
+  - text: "Base"
+    callback: "base_network_balance"
+  - text: "Arbitrum"
+    callback: "arb_network_balance"
+  - text: "🔙 Назад"
+    callback: "go_back"

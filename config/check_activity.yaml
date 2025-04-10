@@ -1,0 +1,9 @@
+title: "Выберете Проект для проверки Активности"
+subtitle: ""
+buttons:
+  - text: "Monad"
+    callback: "monad_check_activity"
+  - text: "Eclipse"
+    callback: "eclipse_check_activity"
+  - text: "🔙 Назад"
+    callback: "go_back"
